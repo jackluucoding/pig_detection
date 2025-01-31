@@ -15,3 +15,5 @@ To run this application, you need to install the required Python packages.
 
 ```bash
 pip install gradio
+
+```
