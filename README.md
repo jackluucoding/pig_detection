@@ -15,5 +15,10 @@ To run this application, you need to install the required Python packages.
 
 ```bash
 pip install gradio
+```
 
+And then run the python file
+
+```bash
+python pig_detection.py
 ```
