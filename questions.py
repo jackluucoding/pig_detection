@@ -6,25 +6,25 @@ questions = [
         # Explanation: This question checks whether the victim met the scammer on a channel commonly used by scammers
         # (dating app, social media, or random text).
         "text": "Did you first meet or connect with this person via a dating app, social media, or a random message?",
-        "weight_yes": 10,
+        "weight_yes": 5,
         "red_flag": "Unsolicited contact on social/dating app"
     },
     {
         # Maps to Sub-Step: "Approach strategy"
         "text": "Did they claim to have messaged you by accident or use a ‘friendly introduction’ approach (e.g., wrong number)?",
-        "weight_yes": 10,
+        "weight_yes": 5,
         "red_flag": "Accidental/wrong-number introduction"
     },
     {
         # Maps to Sub-Step: "Profile crafting"
         "text": "Does their profile seem suspiciously polished or use images you suspect might be stolen or fake?",
-        "weight_yes": 5,
+        "weight_yes": 10,
         "red_flag": "Potentially fake or stolen profile photos"
     },
     {
         # Maps to Sub-Step: "Frequent communication"
         "text": "Have they begun texting/calling you daily, quickly making themselves part of your daily routine?",
-        "weight_yes": 10,
+        "weight_yes": 5,
         "red_flag": "Excessive communication and emotional reliance"
     },
     {
@@ -33,30 +33,30 @@ questions = [
         "weight_yes": 5,
         "red_flag": "Emotional anecdotes to build trust"
     },
-    # {
-    #     # Maps to Sub-Step: "Mirroring interests"
-    #     "text": "Do they often mirror your interests, hobbies, or values to seem remarkably compatible with you?",
-    #     "weight_yes": 5,
-    #     "red_flag": "Suspiciously perfect compatibility"
-    # },
-    # {
-    #     # Maps to Sub-Step: "Expressing affection"
-    #     "text": "Have they declared affection or romantic feelings unusually quickly, despite limited real-life contact?",
-    #     "weight_yes": 10,
-    #     "red_flag": "Premature declarations of love"
-    # },
+    {
+        # Maps to Sub-Step: "Mirroring interests"
+        "text": "Do they often mirror your interests, hobbies, or values to seem remarkably compatible with you?",
+        "weight_yes": 5,
+        "red_flag": "Suspiciously perfect compatibility"
+    },
+    {
+        # Maps to Sub-Step: "Expressing affection"
+        "text": "Have they declared affection or romantic feelings unusually quickly, despite limited real-life contact?",
+        "weight_yes": 10,
+        "red_flag": "Premature declarations of love"
+    },
     {
         # Maps to Sub-Step: "Casual mention of success"
         "text": "Have they casually mentioned significant financial success—especially in crypto or trading—during conversations?",
-        "weight_yes": 10,
+        "weight_yes": 15,
         "red_flag": "Boasts of financial success"
     },
-    # {
-    #     # Maps to Sub-Step: "Sharing success stories"
-    #     "text": "Have they shown screenshots or told stories claiming large profits from an investment or trading platform?",
-    #     "weight_yes": 15,
-    #     "red_flag": "Evidence of high investment returns"
-    # },
+    {
+        # Maps to Sub-Step: "Sharing success stories"
+        "text": "Have they shown screenshots or told stories claiming large profits from an investment or trading platform?",
+        "weight_yes": 15,
+        "red_flag": "Evidence of high investment returns"
+    },
     {
         # Maps to Sub-Step: "Promise of financial freedom"
         "text": "Have they promised you could quickly achieve financial freedom by following their investment advice?",
@@ -105,28 +105,28 @@ questions = [
         "weight_yes": 20,
         "red_flag": "Withdrawal blocked by surprise fees/taxes"
     },
-    # {
-    #     # Maps to Sub-Step: "Request for additional payments"
-    #     "text": "Are they asking you to send additional payments or cryptocurrency to unlock or release your account balance?",
-    #     "weight_yes": 20,
-    #     "red_flag": "Extra payments to ‘unlock’ funds"
-    # },
+    {
+        # Maps to Sub-Step: "Request for additional payments"
+        "text": "Are they asking you to send additional payments or cryptocurrency to unlock or release your account balance?",
+        "weight_yes": 20,
+        "red_flag": "Extra payments to ‘unlock’ funds"
+    },
     {
         # Maps to Sub-Step: "Increasing pressure"
         "text": "Have they used urgent deadlines, legal threats, or other high-pressure tactics to push you to pay more?",
-        "weight_yes": 15,
+        "weight_yes": 20,
         "red_flag": "Escalating pressure tactics"
     },
     {
         # Maps to Sub-Step: "Ghosting and disappearing"
         "text": "After you questioned them or tried to withdraw your money, did they block or ghost you?",
-        "weight_yes": 15,
+        "weight_yes": 20,
         "red_flag": "Ghosting after withdrawal attempt"
     },
     {
         # Maps to Sub-Step: "Dismantling accounts"
         "text": "Does their website or platform now appear offline, deactivated, or inaccessible, leaving you no way to recover funds?",
-        "weight_yes": 15,
+        "weight_yes": 20,
         "red_flag": "Platform vanished after investment"
     }
 ]

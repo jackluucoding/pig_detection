@@ -4,10 +4,7 @@ This application leverages Gradio to create an interactive web interface that he
 
 ## Features
 
-- **Interactive Chatbot**: Engage in a simulated chat interaction to assess situations for potential scams.
-- **Dynamic Questioning**: Depending on your answers, the flow of questions will adjust to better understand your situation.
-- **Immediate Feedback**: After submitting your response, the chatbot will provide immediate follow-up based on the input.
-- **Reset Conversation**: Users can reset the chat at any point to start over.
+Engage in a chat interaction to assess situations for potential scams. After submitting your response, the chatbot will provide immediate follow-up based on the input.
 
 ## Installation
 
